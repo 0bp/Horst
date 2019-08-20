@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26DA795D-9A31-44B7-A497-FF66A1DBE44C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Horst</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C462F354812633253BA4BDA24D1420AC000FCEAE</key>
+		<string>bitbucket.org:borispenck/horst.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Horst.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C462F354812633253BA4BDA24D1420AC000FCEAE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:borispenck/horst.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C462F354812633253BA4BDA24D1420AC000FCEAE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C462F354812633253BA4BDA24D1420AC000FCEAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>horst</string>
+		</dict>
+	</array>
+</dict>
+</plist>

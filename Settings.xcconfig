@@ -1,0 +1,11 @@
+//
+//  Settings.xcconfig
+//  Horst
+//
+//  Created by Boris Penck on 19.12.11.
+//  Copyright (c) 2011 Boris Penck. All rights reserved.
+//
+
+HELPER_ID = com.borispenck.horst.helper
+HOST_ID = com.borispenck.horst
+HELPER_SIGNING = Developer ID Application: Boris Penck

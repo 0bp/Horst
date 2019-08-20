@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A123A73614ACD8F100AA7E4C /* Caution.tif in Resources */ = {isa = PBXBuildFile; fileRef = A123A73514ACD8F100AA7E4C /* Caution.tif */; };
+		A123A73A14B1BFB000AA7E4C /* App-Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A123A73914B1BFB000AA7E4C /* App-Icon.icns */; };
+		A12E79D9149F23D00083D9E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E79D8149F23D00083D9E9 /* Cocoa.framework */; };
+		A12E79E3149F23D00083D9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A12E79E1149F23D00083D9E9 /* InfoPlist.strings */; };
+		A12E79E5149F23D00083D9E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E79E4149F23D00083D9E9 /* main.m */; };
+		A12E79EC149F23D00083D9E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E79EB149F23D00083D9E9 /* AppDelegate.m */; };
+		A12E79EF149F23D00083D9E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12E79ED149F23D00083D9E9 /* MainMenu.xib */; };
+		A137C26514B3B44A004EEB88 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A137C26414B3B44A004EEB88 /* IOKit.framework */; };
+		A14E4AB414A23E7C00060B96 /* HorstDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E4AB314A23E7C00060B96 /* HorstDataSource.m */; };
+		A14E4ABE14A3117800060B96 /* HorstNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E4ABD14A3117800060B96 /* HorstNavigationView.m */; };
+		A14E4AC114A3194B00060B96 /* HorstTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E4AC014A3194B00060B96 /* HorstTextView.m */; };
+		A14E4AC414A321FD00060B96 /* HorstSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E4AC314A321FD00060B96 /* HorstSplitView.m */; };
+		A14E4AC714A3247400060B96 /* HorstIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E4AC614A3247400060B96 /* HorstIndicatorCell.m */; };
+		A157D35A1518EDB0001A82D4 /* bg_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A157D3591518EDB0001A82D4 /* bg_tile.jpg */; };
+		A17B9CFC14B5C94B0093B52B /* HorstRegistrationPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B9CFB14B5C94B0093B52B /* HorstRegistrationPanel.m */; };
+		A17B9D0114B5D25C0093B52B /* libcommonCrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A17B9D0014B5D25C0093B52B /* libcommonCrypto.dylib */; };
+		A18AEF7A1518D5AC0074DECD /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18AEF781518D5AC0074DECD /* Quartz.framework */; };
+		A18AEF7B1518D5AC0074DECD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18AEF791518D5AC0074DECD /* QuartzCore.framework */; };
+		A19931EE14A08A640060891B /* HorstTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A19931ED14A08A640060891B /* HorstTextFieldCell.m */; };
+		A19931F614A1BCFC0060891B /* HorstButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A19931F514A1BCFC0060891B /* HorstButtonCell.m */; };
+		A19931F914A1CAC60060891B /* HorstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A19931F814A1CAC60060891B /* HorstTableView.m */; };
+		A19931FC14A1CE6A0060891B /* HorstSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A19931FB14A1CE6A0060891B /* HorstSliderCell.m */; };
+		A1BC194E149F2E4500A704BF /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E7A15149F249D0083D9E9 /* Helper.m */; };
+		A1BC194F149F2E5D00A704BF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E79DB149F23D00083D9E9 /* AppKit.framework */; };
+		A1BC1951149F2E6B00A704BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BC1950149F2E6B00A704BF /* Security.framework */; };
+		A1BC1953149F2E7800A704BF /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BC1952149F2E7800A704BF /* ServiceManagement.framework */; };
+		A1BC1971149F3D6A00A704BF /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E7A15149F249D0083D9E9 /* Helper.m */; };
+		A1BC1972149F3D6D00A704BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E7A02149F23E20083D9E9 /* main.m */; };
+		A1BC1974149F3EAA00A704BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E79DD149F23D00083D9E9 /* Foundation.framework */; };
+		A1BC1975149F3F5000A704BF /* com.borispenck.horst.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1BC1963149F3D4D00A704BF /* com.borispenck.horst.helper */; };
+		A1C31B3314AA70FD00683754 /* HorstButtonBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C31B3214AA70FD00683754 /* HorstButtonBarView.m */; };
+		A1C31B3614AA75F000683754 /* HorstButtonBarButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C31B3514AA75F000683754 /* HorstButtonBarButtonCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BC196F149F3D5A00A704BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12E79CB149F23CF0083D9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BC1962149F3D4D00A704BF;
+			remoteInfo = Daemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1BC1954149F2EA500A704BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				A1BC1975149F3F5000A704BF /* com.borispenck.horst.helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A123A73514ACD8F100AA7E4C /* Caution.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Caution.tif; path = Assets/Caution.tif; sourceTree = "<group>"; };
+		A123A73914B1BFB000AA7E4C /* App-Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "App-Icon.icns"; sourceTree = "<group>"; };
+		A12E79D4149F23D00083D9E9 /* Horst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12E79D8149F23D00083D9E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A12E79DB149F23D00083D9E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A12E79DC149F23D00083D9E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A12E79DD149F23D00083D9E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A12E79E0149F23D00083D9E9 /* Horst-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Horst-Info.plist"; sourceTree = "<group>"; };
+		A12E79E2149F23D00083D9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A12E79E4149F23D00083D9E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A12E79E6149F23D00083D9E9 /* Horst-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Horst-Prefix.pch"; sourceTree = "<group>"; };
+		A12E79EA149F23D00083D9E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A12E79EB149F23D00083D9E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A12E79EE149F23D00083D9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A12E79FE149F23E20083D9E9 /* Helper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helper-Info.plist"; sourceTree = "<group>"; };
+		A12E7A00149F23E20083D9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A12E7A02149F23E20083D9E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A12E7A14149F249D0083D9E9 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		A12E7A15149F249D0083D9E9 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Helper.m; path = Helper/Helper.m; sourceTree = SOURCE_ROOT; };
+		A137C26414B3B44A004EEB88 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A137C26614B3B4B1004EEB88 /* receigen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = receigen.h; sourceTree = "<group>"; };
+		A14E4AB214A23E7C00060B96 /* HorstDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstDataSource.h; sourceTree = "<group>"; };
+		A14E4AB314A23E7C00060B96 /* HorstDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstDataSource.m; sourceTree = "<group>"; };
+		A14E4ABC14A3117800060B96 /* HorstNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstNavigationView.h; sourceTree = "<group>"; };
+		A14E4ABD14A3117800060B96 /* HorstNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstNavigationView.m; sourceTree = "<group>"; };
+		A14E4ABF14A3194B00060B96 /* HorstTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstTextView.h; sourceTree = "<group>"; };
+		A14E4AC014A3194B00060B96 /* HorstTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstTextView.m; sourceTree = "<group>"; };
+		A14E4AC214A321FD00060B96 /* HorstSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstSplitView.h; sourceTree = "<group>"; };
+		A14E4AC314A321FD00060B96 /* HorstSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstSplitView.m; sourceTree = "<group>"; };
+		A14E4AC514A3247400060B96 /* HorstIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstIndicatorCell.h; sourceTree = "<group>"; };
+		A14E4AC614A3247400060B96 /* HorstIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstIndicatorCell.m; sourceTree = "<group>"; };
+		A157D3591518EDB0001A82D4 /* bg_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_tile.jpg; sourceTree = "<group>"; };
+		A17B9CFA14B5C94B0093B52B /* HorstRegistrationPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstRegistrationPanel.h; sourceTree = "<group>"; };
+		A17B9CFB14B5C94B0093B52B /* HorstRegistrationPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstRegistrationPanel.m; sourceTree = "<group>"; };
+		A17B9D0014B5D25C0093B52B /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
+		A18AEF781518D5AC0074DECD /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		A18AEF791518D5AC0074DECD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A19931EC14A08A640060891B /* HorstTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstTextFieldCell.h; sourceTree = "<group>"; };
+		A19931ED14A08A640060891B /* HorstTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstTextFieldCell.m; sourceTree = "<group>"; };
+		A19931F414A1BCFC0060891B /* HorstButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstButtonCell.h; sourceTree = "<group>"; };
+		A19931F514A1BCFC0060891B /* HorstButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstButtonCell.m; sourceTree = "<group>"; };
+		A19931F714A1CAC60060891B /* HorstTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstTableView.h; sourceTree = "<group>"; };
+		A19931F814A1CAC60060891B /* HorstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstTableView.m; sourceTree = "<group>"; };
+		A19931FA14A1CE6A0060891B /* HorstSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstSliderCell.h; sourceTree = "<group>"; };
+		A19931FB14A1CE6A0060891B /* HorstSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstSliderCell.m; sourceTree = "<group>"; };
+		A1BC1947149F281100A704BF /* Helper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Helper-Launchd.plist"; sourceTree = "<group>"; };
+		A1BC194A149F29AF00A704BF /* Settings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Settings.xcconfig; sourceTree = "<group>"; };
+		A1BC1950149F2E6B00A704BF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A1BC1952149F2E7800A704BF /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		A1BC1959149F38BD00A704BF /* Processed-Horst-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Processed-Horst-Info.plist"; sourceTree = "<group>"; };
+		A1BC195B149F38F400A704BF /* Processed-Helper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Processed-Helper-Info.plist"; sourceTree = "<group>"; };
+		A1BC195C149F38F400A704BF /* Processed-Helper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Processed-Helper-Launchd.plist"; sourceTree = "<group>"; };
+		A1BC1963149F3D4D00A704BF /* com.borispenck.horst.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.borispenck.horst.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BC1965149F3D4D00A704BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A1BC1968149F3D4D00A704BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1BC196A149F3D4D00A704BF /* Daemon.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Daemon.1; sourceTree = "<group>"; };
+		A1C31B3114AA70FD00683754 /* HorstButtonBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstButtonBarView.h; sourceTree = "<group>"; };
+		A1C31B3214AA70FD00683754 /* HorstButtonBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstButtonBarView.m; sourceTree = "<group>"; };
+		A1C31B3414AA75F000683754 /* HorstButtonBarButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorstButtonBarButtonCell.h; sourceTree = "<group>"; };
+		A1C31B3514AA75F000683754 /* HorstButtonBarButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorstButtonBarButtonCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12E79D1149F23D00083D9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18AEF7A1518D5AC0074DECD /* Quartz.framework in Frameworks */,
+				A18AEF7B1518D5AC0074DECD /* QuartzCore.framework in Frameworks */,
+				A17B9D0114B5D25C0093B52B /* libcommonCrypto.dylib in Frameworks */,
+				A137C26514B3B44A004EEB88 /* IOKit.framework in Frameworks */,
+				A1BC1953149F2E7800A704BF /* ServiceManagement.framework in Frameworks */,
+				A1BC1951149F2E6B00A704BF /* Security.framework in Frameworks */,
+				A1BC194F149F2E5D00A704BF /* AppKit.framework in Frameworks */,
+				A12E79D9149F23D00083D9E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BC1960149F3D4D00A704BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BC1974149F3EAA00A704BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A123A73014ACC58A00AA7E4C /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A19931EC14A08A640060891B /* HorstTextFieldCell.h */,
+				A19931ED14A08A640060891B /* HorstTextFieldCell.m */,
+				A19931F414A1BCFC0060891B /* HorstButtonCell.h */,
+				A19931F514A1BCFC0060891B /* HorstButtonCell.m */,
+				A19931FA14A1CE6A0060891B /* HorstSliderCell.h */,
+				A19931FB14A1CE6A0060891B /* HorstSliderCell.m */,
+				A14E4AC514A3247400060B96 /* HorstIndicatorCell.h */,
+				A14E4AC614A3247400060B96 /* HorstIndicatorCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		A123A73414ACD79E00AA7E4C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A123A73514ACD8F100AA7E4C /* Caution.tif */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		A12E79C9149F23CF0083D9E9 = {
+			isa = PBXGroup;
+			children = (
+				A18AEF781518D5AC0074DECD /* Quartz.framework */,
+				A18AEF791518D5AC0074DECD /* QuartzCore.framework */,
+				A17B9D0014B5D25C0093B52B /* libcommonCrypto.dylib */,
+				A137C26414B3B44A004EEB88 /* IOKit.framework */,
+				A123A73914B1BFB000AA7E4C /* App-Icon.icns */,
+				A123A73414ACD79E00AA7E4C /* Assets */,
+				A1BC194A149F29AF00A704BF /* Settings.xcconfig */,
+				A12E79DE149F23D00083D9E9 /* Horst */,
+				A12E79FC149F23E20083D9E9 /* Helper */,
+				A1BC1967149F3D4D00A704BF /* Daemon */,
+				A12E79D7149F23D00083D9E9 /* Frameworks */,
+				A12E79D5149F23D00083D9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12E79D5149F23D00083D9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12E79D4149F23D00083D9E9 /* Horst.app */,
+				A1BC1963149F3D4D00A704BF /* com.borispenck.horst.helper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12E79D7149F23D00083D9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BC1952149F2E7800A704BF /* ServiceManagement.framework */,
+				A1BC1950149F2E6B00A704BF /* Security.framework */,
+				A12E79D8149F23D00083D9E9 /* Cocoa.framework */,
+				A1BC1965149F3D4D00A704BF /* CoreFoundation.framework */,
+				A12E79DA149F23D00083D9E9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A12E79DA149F23D00083D9E9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12E79DB149F23D00083D9E9 /* AppKit.framework */,
+				A12E79DC149F23D00083D9E9 /* CoreData.framework */,
+				A12E79DD149F23D00083D9E9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A12E79DE149F23D00083D9E9 /* Horst */ = {
+			isa = PBXGroup;
+			children = (
+				A157D3591518EDB0001A82D4 /* bg_tile.jpg */,
+				A123A73014ACC58A00AA7E4C /* Table Cells */,
+				A12E79EA149F23D00083D9E9 /* AppDelegate.h */,
+				A12E79EB149F23D00083D9E9 /* AppDelegate.m */,
+				A12E79ED149F23D00083D9E9 /* MainMenu.xib */,
+				A12E79DF149F23D00083D9E9 /* Supporting Files */,
+				A19931F714A1CAC60060891B /* HorstTableView.h */,
+				A19931F814A1CAC60060891B /* HorstTableView.m */,
+				A14E4AB214A23E7C00060B96 /* HorstDataSource.h */,
+				A14E4AB314A23E7C00060B96 /* HorstDataSource.m */,
+				A14E4ABC14A3117800060B96 /* HorstNavigationView.h */,
+				A14E4ABD14A3117800060B96 /* HorstNavigationView.m */,
+				A14E4ABF14A3194B00060B96 /* HorstTextView.h */,
+				A14E4AC014A3194B00060B96 /* HorstTextView.m */,
+				A14E4AC214A321FD00060B96 /* HorstSplitView.h */,
+				A14E4AC314A321FD00060B96 /* HorstSplitView.m */,
+				A1C31B3114AA70FD00683754 /* HorstButtonBarView.h */,
+				A1C31B3214AA70FD00683754 /* HorstButtonBarView.m */,
+				A1C31B3414AA75F000683754 /* HorstButtonBarButtonCell.h */,
+				A1C31B3514AA75F000683754 /* HorstButtonBarButtonCell.m */,
+				A17B9CFA14B5C94B0093B52B /* HorstRegistrationPanel.h */,
+				A17B9CFB14B5C94B0093B52B /* HorstRegistrationPanel.m */,
+			);
+			path = Horst;
+			sourceTree = "<group>";
+		};
+		A12E79DF149F23D00083D9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1BC1959149F38BD00A704BF /* Processed-Horst-Info.plist */,
+				A12E79E0149F23D00083D9E9 /* Horst-Info.plist */,
+				A12E79E1149F23D00083D9E9 /* InfoPlist.strings */,
+				A12E79E4149F23D00083D9E9 /* main.m */,
+				A12E79E6149F23D00083D9E9 /* Horst-Prefix.pch */,
+				A137C26614B3B4B1004EEB88 /* receigen.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A12E79FC149F23E20083D9E9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A12E7A14149F249D0083D9E9 /* Helper.h */,
+				A12E7A15149F249D0083D9E9 /* Helper.m */,
+				A12E79FD149F23E20083D9E9 /* Supporting Files */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A12E79FD149F23E20083D9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1BC195B149F38F400A704BF /* Processed-Helper-Info.plist */,
+				A1BC195C149F38F400A704BF /* Processed-Helper-Launchd.plist */,
+				A12E79FE149F23E20083D9E9 /* Helper-Info.plist */,
+				A1BC1947149F281100A704BF /* Helper-Launchd.plist */,
+				A12E79FF149F23E20083D9E9 /* InfoPlist.strings */,
+				A12E7A02149F23E20083D9E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1BC1967149F3D4D00A704BF /* Daemon */ = {
+			isa = PBXGroup;
+			children = (
+				A1BC1968149F3D4D00A704BF /* main.c */,
+				A1BC196A149F3D4D00A704BF /* Daemon.1 */,
+			);
+			path = Daemon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12E79D3149F23D00083D9E9 /* Horst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12E79F2149F23D00083D9E9 /* Build configuration list for PBXNativeTarget "Horst" */;
+			buildPhases = (
+				A1BC194D149F2DB300A704BF /* ShellScript */,
+				A12E79D0149F23D00083D9E9 /* Sources */,
+				A12E79D1149F23D00083D9E9 /* Frameworks */,
+				A12E79D2149F23D00083D9E9 /* Resources */,
+				A1BC1954149F2EA500A704BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BC1970149F3D5A00A704BF /* PBXTargetDependency */,
+			);
+			name = Horst;
+			productName = Horst;
+			productReference = A12E79D4149F23D00083D9E9 /* Horst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1BC1962149F3D4D00A704BF /* Daemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BC196C149F3D4D00A704BF /* Build configuration list for PBXNativeTarget "Daemon" */;
+			buildPhases = (
+				A1BC1973149F3DB200A704BF /* ShellScript */,
+				A1BC195F149F3D4D00A704BF /* Sources */,
+				A1BC1960149F3D4D00A704BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daemon;
+			productName = Daemon;
+			productReference = A1BC1963149F3D4D00A704BF /* com.borispenck.horst.helper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12E79CB149F23CF0083D9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = A12E79CE149F23CF0083D9E9 /* Build configuration list for PBXProject "Horst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A12E79C9149F23CF0083D9E9;
+			productRefGroup = A12E79D5149F23D00083D9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12E79D3149F23D00083D9E9 /* Horst */,
+				A1BC1962149F3D4D00A704BF /* Daemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12E79D2149F23D00083D9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12E79E3149F23D00083D9E9 /* InfoPlist.strings in Resources */,
+				A12E79EF149F23D00083D9E9 /* MainMenu.xib in Resources */,
+				A123A73614ACD8F100AA7E4C /* Caution.tif in Resources */,
+				A123A73A14B1BFB000AA7E4C /* App-Icon.icns in Resources */,
+				A157D35A1518EDB0001A82D4 /* bg_tile.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1BC194D149F2DB300A704BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"Horst/Horst-Info.plist",
+			);
+			outputPaths = (
+				"Horst/Processed-Horst-Info.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cat \"Horst/Horst-Info.plist\" | sed -e \"s/\\${HELPER_ID}/${HELPER_ID}/\" | sed -e \"s/\\${HELPER_SIGNING}/${HELPER_SIGNING}/\" | sed -e \"s/\\${HOST_ID}/${HOST_ID}/\" > \"Horst/Processed-Horst-Info.plist\"\n";
+		};
+		A1BC1973149F3DB200A704BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"Helper/Helper-Info.plist",
+				"Helper/Helper-Launchd.plist",
+			);
+			outputPaths = (
+				"Helper/Processed-Helper-Info.plist",
+				"Helper/Processed-Helper-Launchd.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cat \"Helper/Helper-Info.plist\" | sed -e \"s/\\${HELPER_ID}/${HELPER_ID}/\" | sed -e \"s/\\${HELPER_SIGNING}/${HELPER_SIGNING}/\" | sed -e \"s/\\${HOST_ID}/${HOST_ID}/\" > \"Helper/Processed-Helper-Info.plist\"\n\ncat \"Helper/Helper-Launchd.plist\" | sed -e \"s/\\${HELPER_ID}/${HELPER_ID}/\" | sed -e \"s/\\${HELPER_SIGNING}/${HELPER_SIGNING}/\" > \"Helper/Processed-Helper-Launchd.plist\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12E79D0149F23D00083D9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12E79E5149F23D00083D9E9 /* main.m in Sources */,
+				A12E79EC149F23D00083D9E9 /* AppDelegate.m in Sources */,
+				A1BC194E149F2E4500A704BF /* Helper.m in Sources */,
+				A19931EE14A08A640060891B /* HorstTextFieldCell.m in Sources */,
+				A19931F614A1BCFC0060891B /* HorstButtonCell.m in Sources */,
+				A19931F914A1CAC60060891B /* HorstTableView.m in Sources */,
+				A19931FC14A1CE6A0060891B /* HorstSliderCell.m in Sources */,
+				A14E4AB414A23E7C00060B96 /* HorstDataSource.m in Sources */,
+				A14E4ABE14A3117800060B96 /* HorstNavigationView.m in Sources */,
+				A14E4AC114A3194B00060B96 /* HorstTextView.m in Sources */,
+				A14E4AC414A321FD00060B96 /* HorstSplitView.m in Sources */,
+				A14E4AC714A3247400060B96 /* HorstIndicatorCell.m in Sources */,
+				A1C31B3314AA70FD00683754 /* HorstButtonBarView.m in Sources */,
+				A1C31B3614AA75F000683754 /* HorstButtonBarButtonCell.m in Sources */,
+				A17B9CFC14B5C94B0093B52B /* HorstRegistrationPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BC195F149F3D4D00A704BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BC1971149F3D6A00A704BF /* Helper.m in Sources */,
+				A1BC1972149F3D6D00A704BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1BC1970149F3D5A00A704BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BC1962149F3D4D00A704BF /* Daemon */;
+			targetProxy = A1BC196F149F3D5A00A704BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A12E79E1149F23D00083D9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12E79E2149F23D00083D9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A12E79ED149F23D00083D9E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12E79EE149F23D00083D9E9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A12E79FF149F23E20083D9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12E7A00149F23E20083D9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12E79F0149F23D00083D9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BC194A149F29AF00A704BF /* Settings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "${HELPER_SIGNING}";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A12E79F1149F23D00083D9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BC194A149F29AF00A704BF /* Settings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "${HELPER_SIGNING}";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A12E79F3149F23D00083D9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "${HELPER_SIGNING}";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horst/Horst-Prefix.pch";
+				INFOPLIST_FILE = "Horst/Processed-Horst-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A12E79F4149F23D00083D9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "${HELPER_SIGNING}";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horst/Horst-Prefix.pch";
+				INFOPLIST_FILE = "Horst/Processed-Horst-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1BC196D149F3D4D00A704BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "${HELPER_SIGNING}";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Helper/Processed-Helper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Helper/Processed-Helper-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(HELPER_ID)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1BC196E149F3D4D00A704BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "${HELPER_SIGNING}";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Helper/Processed-Helper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Helper/Processed-Helper-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(HELPER_ID)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12E79CE149F23CF0083D9E9 /* Build configuration list for PBXProject "Horst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12E79F0149F23D00083D9E9 /* Debug */,
+				A12E79F1149F23D00083D9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12E79F2149F23D00083D9E9 /* Build configuration list for PBXNativeTarget "Horst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12E79F3149F23D00083D9E9 /* Debug */,
+				A12E79F4149F23D00083D9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BC196C149F3D4D00A704BF /* Build configuration list for PBXNativeTarget "Daemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BC196D149F3D4D00A704BF /* Debug */,
+				A1BC196E149F3D4D00A704BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12E79CB149F23CF0083D9E9 /* Project object */;
+}
